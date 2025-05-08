@@ -1,0 +1,36 @@
+2025-05-04 12:27:43,700:INFO: 
++------------------+----------------------------------------------------------------------------------+
+| Parameters       | Value                                                                            |
++------------------+----------------------------------------------------------------------------------+
+| source_train     | cut_cleaned_translation2019zh_txt/cut_cleaned_train.zh.txt                       |
+| target_train     | cut_cleaned_translation2019zh_txt/cut_cleaned_train.en.txt                       |
+| source_test      | cut_cleaned_translation2019zh_txt/cut_cleaned_valid.zh.txt                       |
+| target_test      | cut_cleaned_translation2019zh_txt/cut_cleaned_valid.en.txt                       |
+| batch_size       | 48                                                                               |
+| batch_size_valid | 32                                                                               |
+| lr               | 0.0001                                                                           |
+| logdir           | logdir                                                                           |
+| model_dir        | ./models/                                                                        |
+| maxlen           | 50                                                                               |
+| min_cnt          | 0                                                                                |
+| hidden_units     | 512                                                                              |
+| num_blocks       | 12                                                                               |
+| num_epochs       | 50                                                                               |
+| num_heads        | 8                                                                                |
+| dropout_rate     | 0.4                                                                              |
+| sinusoid         | False                                                                            |
+| eval_epoch       | 1                                                                                |
+| eval_script      | C:\Users\admin\Desktop\transformer\attention is all you need\scripts\validate.sh |
+| check_frequency  | 10                                                                               |
++------------------+----------------------------------------------------------------------------------+
+2025-05-04 12:28:10,382:INFO: Epoch: 1 batch: 10/818(1.22%), loss: 9.97369, acc: 0.04077
+2025-05-04 12:28:27,667:INFO: Epoch: 1 batch: 20/818(2.44%), loss: 9.60784, acc: 0.04519
+2025-05-04 12:28:44,651:INFO: Epoch: 1 batch: 30/818(3.67%), loss: 9.11751, acc: 0.05936
+2025-05-04 12:29:01,249:INFO: Epoch: 1 batch: 40/818(4.89%), loss: 8.8909, acc: 0.0522
+2025-05-04 12:29:17,876:INFO: Epoch: 1 batch: 50/818(6.11%), loss: 8.59713, acc: 0.0499
+2025-05-04 12:29:35,183:INFO: Epoch: 1 batch: 60/818(7.33%), loss: 8.5331, acc: 0.0538
+2025-05-04 12:29:52,504:INFO: Epoch: 1 batch: 70/818(8.56%), loss: 8.29364, acc: 0.04797
+2025-05-04 12:30:09,327:INFO: Epoch: 1 batch: 80/818(9.78%), loss: 8.41731, acc: 0.05479
+2025-05-04 12:30:26,114:INFO: Epoch: 1 batch: 90/818(11.00%), loss: 8.34375, acc: 0.04928
+2025-05-04 12:30:42,786:INFO: Epoch: 1 batch: 100/818(12.22%), loss: 8.41384, acc: 0.0825
+2025-05-04 12:30:59,541:INFO: Epoch: 1 batch: 110/818(13.45%), loss: 8.24222, acc: 0.06547
